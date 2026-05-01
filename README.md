@@ -1,2 +1,2 @@
 # health-check-FE
-Health check app
+Health check app Frontend
