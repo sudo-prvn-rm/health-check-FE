@@ -1,5 +1,7 @@
 const HOST = import.meta.env.VITE_HOST || 'http://127.0.0.1:8000';
 
+console.log('API HOST:', HOST);
+
 export const api = {
   async signup(data) {
     const response = await fetch(`${HOST}/api/v1/auth/signup`, {
